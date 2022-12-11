@@ -58,9 +58,9 @@ var sql="UPDATE users SET password = '"+confirmpass+"'  WHERE password ='"+oldpa
 if (newpass==confirmpass){
   con.query(sql, function (err, result) {
     if (err) throw err;
-    console.log("Retrieve all tweets successfulley");
+    console.log("new and cofirm password matches");
   
-    response.json("nwe and cofirm password matches")
+    response.json("new and cofirm password matches")
     
 });   };    
 

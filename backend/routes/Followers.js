@@ -44,7 +44,7 @@ router.post("/addfollower/:FollowerId",function(request, response){
       con.query(sql, function (err, result) {
         if (err) throw err;
         console.log("you are unfollow him now ");
-        response.send({"result":"you are follow person"});
+        response.send({"result":"you are not follow person"});
       });
     });
   }
