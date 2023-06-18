@@ -37,5 +37,5 @@ For the following requests:
 24. Unlike a tweet.
 25. Retrieve tweet likes count
 
-![d](https://user-images.githubusercontent.com/92439170/206921122-1a6eedd4-7ad1-4409-ad32-84241a4cde78.png)
+
 
